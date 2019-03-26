@@ -4,7 +4,7 @@ Chapter01-GEEKTIME
 
 注意：由于例子里提供的 minidump_stackwalker(生成的位置已在breakpad/breakpad/src/processor目录下) 可能由于环境不同，无法启动，建议同学自行编译来获取工具，具体教程可见https://github.com/google/breakpad
 
-minidump_stackwalker工具生成的资源文件分别下载到breakpad目录和depot_tools目录，可以直接进行命令进行生成，具体教程可见https://github.com/google/breakpad。
+minidump_stackwalker工具生成的资源文件分别已下载到breakpad目录和depot_tools目录，可以直接进行命令进行生成，具体教程可见https://github.com/google/breakpad。
 
 编译环境
 =======
