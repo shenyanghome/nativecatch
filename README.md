@@ -7,9 +7,9 @@ Chapter01-GEEKTIME
 
 编译环境
 =======
-Android Studio 3.2
+Android Studio 3.0
 CMAKE
-NDK(使用ndk 16-19版本)
+NDK(使用ndk版本19.1)
 
 项目构建
 =======
