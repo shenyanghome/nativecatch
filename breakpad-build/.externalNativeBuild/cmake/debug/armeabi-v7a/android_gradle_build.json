@@ -1,0 +1,181 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/CMakeLists.txt",
+		"/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "S", "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/chenmingqiu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"breakpad-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "breakpad",
+			"buildCommand" : "/Users/chenmingqiu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a --target breakpad",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/crash_generation/crash_generation_client.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/dump_writer_common/thread_info.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/dump_writer_common/ucontext_reader.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/handler/exception_handler.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/handler/minidump_descriptor.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/log/log.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/microdump_writer/microdump_writer.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/minidump_writer/linux_dumper.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/minidump_writer/linux_ptrace_dumper.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/minidump_writer/minidump_writer.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/client/minidump_file_writer.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Werror=implicit-function-declaration -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/convert_UTF.c",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/md5.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/string_conversion.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/elfutils.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/file_id.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/guid_creator.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/linux_libc_support.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/memory_mapped_file.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/safe_readlink.cc",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Werror=implicit-function-declaration -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/breakpad_getcontext.S",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/external/libbreakpad/libbreakpad.a",
+			"toolchain" : "14672071928698353446"
+		},
+		"breakpad-core-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "breakpad-core",
+			"buildCommand" : "/Users/chenmingqiu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a --target breakpad-core",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -Dbreakpad_core_EXPORTS -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src -I/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/breakpad.cpp",
+					"workingDirectory" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/build/intermediates/cmake/debug/obj/armeabi-v7a/libbreakpad-core.so",
+			"toolchain" : "14672071928698353446"
+		}
+	},
+	"toolchains" : 
+	{
+		"14672071928698353446" : 
+		{
+			"cCompilerExecutable" : "/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/chenmingqiu/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

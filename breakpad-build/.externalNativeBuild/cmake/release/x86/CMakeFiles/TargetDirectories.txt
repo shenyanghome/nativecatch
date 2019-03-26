@@ -1,0 +1,6 @@
+/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
+/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/CMakeFiles/breakpad-core.dir
+/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/external/libbreakpad/CMakeFiles/edit_cache.dir
+/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/external/libbreakpad/CMakeFiles/rebuild_cache.dir
+/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/external/libbreakpad/CMakeFiles/breakpad.dir

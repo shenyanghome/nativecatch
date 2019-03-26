@@ -1,0 +1,25 @@
+# ninja log v5
+2	97	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/log/log.cc.o	bc88f1c319842911
+0	630	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/crash_generation/crash_generation_client.cc.o	57b41d7f75968c0
+1	699	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/dump_writer_common/ucontext_reader.cc.o	ebce173f2bae8b7
+631	747	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/convert_UTF.c.o	bef5bc0d190d0a38
+1	813	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/handler/minidump_descriptor.cc.o	9e9f650243354939
+700	833	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/md5.cc.o	95d4f8bebd7fc4d6
+97	916	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/minidump_file_writer.cc.o	c8a03d23b21d768d
+917	1096	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/linux/guid_creator.cc.o	31e189f382780804
+3	1118	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/minidump_writer/linux_ptrace_dumper.cc.o	21c36d31977e0e92
+1096	1215	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/linux/linux_libc_support.cc.o	a7267687606529ed
+1119	1333	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/linux/memory_mapped_file.cc.o	8945a7f4aec058bb
+2	1335	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/microdump_writer/microdump_writer.cc.o	8fc0e2be936cc4ce
+1215	1414	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/linux/safe_readlink.cc.o	740fca4fd9cc113f
+1333	1419	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/android/breakpad_getcontext.S.o	d13a4497037ddea4
+1	1537	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/handler/exception_handler.cc.o	1bb53d86743989c7
+813	1614	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/linux/elfutils.cc.o	2f2db41e3a96b8d4
+747	1646	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/string_conversion.cc.o	e27dd3307ab20d18
+4	1799	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/minidump_writer/minidump_writer.cc.o	c9698e677bb646e4
+833	1849	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/common/linux/file_id.cc.o	c705b9b0e036eafd
+0	30412	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/dump_writer_common/thread_info.cc.o	27d9a111ef9336a4
+2	30750	0	external/libbreakpad/CMakeFiles/breakpad.dir/src/client/linux/minidump_writer/linux_dumper.cc.o	42de248ec2b95119
+30750	30913	0	external/libbreakpad/libbreakpad.a	ddaa8ddf12488b44
+30913	31434	0	CMakeFiles/breakpad-core.dir/breakpad.cpp.o	274f7da5333dfc83
+31434	31544	0	/Users/chenmingqiu/github/Chapter01-master/breakpad-build/build/intermediates/cmake/debug/obj/armeabi-v7a/libbreakpad-core.so	8757ab875946a12a

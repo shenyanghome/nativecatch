@@ -1,0 +1,23 @@
+{
+  "buildFiles": [
+    "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/CMakeLists.txt",
+    "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/src/main/cpp/external/libbreakpad/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/chenmingqiu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "breakpad-core-Release-x86": {
+      "artifactName": "breakpad-core",
+      "buildCommand": "/Users/chenmingqiu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86 --target breakpad-core",
+      "abi": "x86",
+      "output": "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/build/intermediates/cmake/release/obj/x86/libbreakpad-core.so"
+    },
+    "breakpad-Release-x86": {
+      "artifactName": "breakpad",
+      "buildCommand": "/Users/chenmingqiu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86 --target breakpad",
+      "abi": "x86",
+      "output": "/Users/chenmingqiu/github/Chapter01-master/breakpad-build/.externalNativeBuild/cmake/release/x86/external/libbreakpad/libbreakpad.a"
+    }
+  }
+}
